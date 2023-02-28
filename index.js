@@ -41,10 +41,10 @@ gameActiveSec.style.display = "none";
 glow.style.display = "none";
 //initailising stored score
 let clicks=true;
-scoreNum.innerHTML = localStorage.getItem("score");// stored original score
-B_scoreNum.innerHTML=localStorage.getItem("Bscore");// stored bonus score
 let BonusScore = 0;
 let score = 0;
+scoreNum.innerHTML = localStorage.getItem("score");// stored original score
+B_scoreNum.innerHTML=localStorage.getItem("Bscore");// stored bonus score
 BonusScore = localStorage.getItem("Bscore");
 score = localStorage.getItem("score");
 
