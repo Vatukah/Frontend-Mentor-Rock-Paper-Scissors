@@ -658,7 +658,7 @@
 }
 #gameActive,
 #BgameActive { 
-  width: fit-content;
+  width: 100%;
   max-width: unset;
   height: fit-content;
   margin-top: 50px;
@@ -698,8 +698,9 @@ background-size: 120px;
 #Result,
 #bonusResult {
   position: absolute;
-  left: -10px;
-  bottom: -180px;
+   right: 50%;
+  bottom: -120px;
+transform: translate(50%,50%);
 }
 #glow {
  
