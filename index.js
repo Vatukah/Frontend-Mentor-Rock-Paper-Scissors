@@ -82,7 +82,7 @@ chooseGame[0].addEventListener("click",()=>{
         ruleSec.children[0].children[1].src="images/image-rules.svg";
         ruleBtn.style.display="block";
         let inner_Width=window.innerWidth;
-        if(inner_Width<=375){
+        if(inner_Width<=500){
            info.style.display="none";
         }
 })
@@ -106,7 +106,7 @@ chooseGame[1].addEventListener("click",()=>{
   ruleSec.children[0].children[1].src="images/image-rules-bonus.svg";
   ruleBtn.style.display="block";
   let inner_Width=window.innerWidth;
-  if(inner_Width<=375){
+  if(inner_Width<=500){
      info.style.display="none";
   }
 })
